@@ -317,6 +317,11 @@
     box-shadow:0 0 0 2px rgba(212,175,55,0.25), 0 4px 14px rgba(212,175,55,0.15);
     background:linear-gradient(180deg, #FFFDF5 0%, var(--paper) 55%);
   }
+  /* Saat kartu unggulan ditandai (marked), bingkai merah harus tetap menang */
+  .candidate-card.unggulan.marked{
+    border-color:var(--merah);
+    box-shadow:0 0 0 3px var(--merah);
+  }
   .candidate-card.unggulan::before{
     content:"Rekomendasi";
     position:absolute;
